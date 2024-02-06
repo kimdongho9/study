@@ -1,1 +1,1 @@
-# study
+# javascrip study

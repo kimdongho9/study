@@ -161,3 +161,6 @@ let animals2 = animals.slice(animals.indexOf("Baboon"),animals.indexOf("Bison")+
 
 console.log(animals2)
 
+
+
+

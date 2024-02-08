@@ -162,5 +162,27 @@ let animals2 = animals.slice(animals.indexOf("Baboon"),animals.indexOf("Bison")+
 console.log(animals2)
 
 
+//#### concat() : 두 개 이상의 배열을 연결하여 새로운 배열을 반환
+//※ 중복 제거 x
+
+let contryArr = ["korea", "japan", "america"]
+let colorArr = ["red", "black"]
+
+let newArr = contryArr.concat(colorArr)
+
+console.log(newArr)
+// ["korea", "japan", "america", "red", "black"]
+
+//#### Set() : 중복되지 않은 요소만 저장
+
+
+let arr1 = [10,30,50]
+let arr2 = [50,70,90]
+
+let conArr = arr1.concat(arr)
+let newArr2 = [...new Set(conArr)]
+
+console.log = (newArr2)
+// [10,30,50,70,90]
 
 

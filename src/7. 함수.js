@@ -145,6 +145,18 @@ function findSmallestElement (arr) {
 let Small = findSmallestElement([100,200,3,0,2,1])
 
 console.log(Small);
+//==================================================
+
+function findSmallestElement(arr){
+  if(arr.length == 0){
+    return 0;
+  }
+  const min = Math.min(...arr);
+  return min;  
+}
+
+const array1 = [100,200,3,0,2,1]
+console.log("가장 작은 값:", findSmallestElement(array1))
 
 //### 문제 6.
 //돈을 매개변수로 받으면 몇 개의 지폐와 동전이 필요한지 최소 개수를 계산해주는 함수를 만드시오.

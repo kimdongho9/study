@@ -15,7 +15,7 @@ let playButton = document.getElementById("play-button")
 let userInput = document.getElementById("user-input")
 let resultArea = document.getElementById("result-area")
 
-playButton.addEventListener("click",play)
+playButton.addEventListener("click", play)
 
 
 function pickRandomNum() {
@@ -26,12 +26,12 @@ pickRandomNum()
 
 function play() {
   let userValue = userInput.value;
-  if(userValue < computerNum){
+  if (userValue < computerNum) {
     resultArea.textContent = "UP!!!!"
-    
-  }else if (userValue> computerNum){
+
+  } else if (userValue > computerNum) {
     resultArea.textContent = "DOWN!!!!"
-  }else{
+  } else {
     resultArea.textContent = "맞추셨습니다."
   }
 }

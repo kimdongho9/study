@@ -20,18 +20,19 @@ let gameOver = false;
 let chanceArea = document.getElementById("chance-area")
 let history = [];
 
+
 playButton.addEventListener("click", play)
 resetButton.addEventListener("click", reset)
+
 userInput.addEventListener("focus", function () {
   userInput.value = "";
-
 })
 
 function pickRandomNum() {
   computerNum = Math.floor(Math.random() * 100) + 1;
   console.log("정답", computerNum);
 }
-pickRandomNum()
+
 
 function play() {
   let userValue = userInput.value;
@@ -65,15 +66,20 @@ function play() {
   console.log(history)
 
 
-  if (chances < 1) {
+  if (chances == 0) {
     gameOver = true
   }
 
-  if (gameOver == 0) {
+  if (gameOver == true) {
     playButton.disabled = true;
   }
 
 }
+
+function focusInput(){
+  userInput.value = "";
+}
+
 
 
 function reset() {
@@ -81,8 +87,13 @@ function reset() {
   userInput.value
   // 새로운 번호가 생성되고
   pickRandomNum();
-
   resultArea.textContent = "결과값이 여기 나옵니다!"
+  userInput.value = "";
+  gameOver = false;
+  playButton.disabled = false;
+  chances = 5;
+  chanceArea.innerHTML = `남은 기회:${chances}`;
+  userValueList = [];
 }
 
-
+pickRandomNum()

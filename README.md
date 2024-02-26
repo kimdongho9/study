@@ -1,7 +1,7 @@
 ## react 스터디
-
-
-
+* component  -  단축키(rafce) 안될 시 ES7+NATIVE snippets 설치 
+* props
+* State
 
 
 

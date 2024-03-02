@@ -13,7 +13,7 @@ const App = () => {
         <Box title='YOU' />
         <Box title='COM' />
       </div>
-
+        
       <div className='main'>
         <button>가위</button>
         <button>바위</button>

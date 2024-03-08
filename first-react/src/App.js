@@ -25,7 +25,7 @@ function App() {
 //6. 함수 끝
 //7. app다시 re render
 //8. let counter = 0을 거치면서 counter 값은 0으로 초기화가 된다.
-//9. state값은 update가 되면서 다시 render를 한다
+//9.  state값은 update가 되면서 다시 render를 한다
 
 useEffect(() => {
   console.log("useEffect1 Fire!")

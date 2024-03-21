@@ -1,11 +1,11 @@
-## react 스터디 ([바로가기](https://gleeful-blancmange-9699ba.netlify.app))
+## react 스터디 
 * component  -  단축키(rafce) 안될 시 ES7+NATIVE snippets 설치 
 * props
 * State
 * class Component
 * lifeCycle  -  render,state 호출 잘 됐는지 호출하는 함수!
 
-# 가위바위보 게임
+# 가위바위보 게임 ([바로가기](https://gleeful-blancmange-9699ba.netlify.app))
 * 1. 박스 2개( 타이틀,사진,결과)
 * 2. 가위 바위 보 버튼이 있다.
 * 3. 버튼을 클릭하면 클릭한 값이 박스에 보인다.

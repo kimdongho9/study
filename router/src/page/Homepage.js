@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
     return (
         <div>
-            홈
+            <h1>홈이다</h1>
+            <Link to="/about">GO</Link>
         </div>
     );
 };

@@ -10,8 +10,7 @@ const Aboutpage = () => {
             <h1>about이다!</h1>
             <button onClick={goToHomepage}>Go</button>
             <button onClick={goToHomepage}>Go</button>
-            <button onClick={goToHomepage}>Go</button>
-            <button onClick={goToHomepage}>Go</button>
+
         </div>
     );
 };
